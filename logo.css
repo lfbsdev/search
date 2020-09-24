@@ -1,0 +1,60 @@
+#glogo{
+    width: auto;
+}
+
+#img-container{
+    margin-top: 109px;
+    height: 100px;
+}
+
+#img-container-imageSearch{
+    margin-top: 109px;
+    height: 94px;
+    background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+    background-repeat: no-repeat;
+    background-size: 272px 92px;
+    color: rgb(34, 34, 34);
+    width: 272px;
+}
+
+#imageSearch-sublogo-container{
+    color: rgb(66, 133, 244);
+    font-family: roboto-regular, arial, sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    left: 215px;
+    line-height: 16px;
+    position: relative;
+    top: 76px;
+    white-space: nowrap;
+}
+
+#glogo-grey-bar-container{
+    display: inline-block;
+    position: relative;
+    width: 152px;
+    height: 60px;
+    line-height: 58px;
+    vertical-align: middle;
+}
+
+#glogo-grey-bar{
+    height: 33px;
+    padding: 0 20px 0 15px;
+    position: absolute;
+    margin: 0px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+@media (max-height: 536px){
+    #glogo{
+        height: 72px;
+    }
+
+    #img-container{
+        margin-top: 0px;
+    }
+}
