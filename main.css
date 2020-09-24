@@ -36,3 +36,7 @@ div#content{
     font-family: arial, sans-serif;
     font-weight: 400;
 }
+
+.grey-line{
+    border-bottom: 1px solid #ebebeb;
+}
