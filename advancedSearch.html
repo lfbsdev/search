@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="form.css">
         <link rel="stylesheet" href="buttons.css">
         <link rel="stylesheet" href="links.css">
+
+        <meta charset="UTF-8">
         <title>advancedSearch</title>
     </head>
 
@@ -24,7 +26,7 @@
                 <form action="https://google.com/search" id="advForm">
                     <div class="subtitle-container">
                         <div class="subtitle-container-2">
-                            <span id="find-pages-with">Find pages with...</span>
+                            <span class="subtitle">Find pages with...</span>
                         </div>
                     </div>
                     <div id="space"></div>
@@ -34,7 +36,7 @@
                         </div>
                     </div>
 
-                    <div style="clear:both; width: 100%;">
+                    <div class="form-section"style="height: 210px;">
                         <div class="search-parameter-container">
                             <div class="subtitle-container-2">
                                 <label for="words" class="search-parameter">all these words:</label>
@@ -139,8 +141,56 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="grey-line" style="margin: 18px 0; clear:both"></div>
+                    <div class="subtitle-container">
+                        <div class="subtitle-container-2">
+                            <span id="subtitle">
+                                Then narrow your results by...
+                                </span>
+                        </div>
+                    </div>
 
 
+                    
+                    <div class="form-section">
+                        <div class="search-parameter-container">
+                            <div class="subtitle-container-2">
+                                <label for="none-words" class="search-parameter">language:</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <div style="position: relative;">
+                                <input id="language-selector" name="language" value="" type="hidden">
+                                <div class="selector" id="language-selector-button" role="listbox">
+                                    any language
+                                </div>
+                            </div>
+                        </div>
+                        <div class="explanation-container">
+                            <div class="subtitle-container-2">
+                                Find pages in the language that you select.
+                            </div>
+                        </div>
+
+                        <div class="search-parameter-container">
+                            <div class="subtitle-container-2">
+                                <label for="none-words" class="search-parameter">language:</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <div style="position: relative;">
+                                <input id="language-selector" name="language" value="" type="hidden">
+                                <div class="selector" id="language-selector-button" role="listbox">
+                                    any language
+                                </div>
+                            </div>
+                        </div>
+                        <div class="explanation-container">
+                            <div class="subtitle-container-2">
+                                Find pages in the language that you select.
+                            </div>
+                        </div>
                     </div>
                 </form>
 
