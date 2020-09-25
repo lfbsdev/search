@@ -112,3 +112,71 @@ svg {
         padding-left: 5px;
         font-family: arial,sans-serif;
 }
+
+.search-parameter-container{
+        margin-top: -1px;
+        margin-bottom: 1px;
+        min-width: 167px;
+        width: 16%;
+        font-size: 16px;
+        height: 42px;
+        float: left;
+        display: inline-block;
+        color: #222;
+}
+
+.search-parameter{
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 400;
+}
+
+.input-container{
+        float: left;
+        display: inline-block;
+        min-width: 167px;
+        min-height: 41px;
+        vertical-align: middle;
+        width: 50%;
+}
+
+.input-container-2{
+        padding-right: 16px;
+}
+
+.input{
+        width: 100%;
+        text-align: left;
+        border-radius: 1px;
+        border: 1px solid #d9d9d9;
+        border-top: 1px solid #c0c0c0;
+        font-size: 13px;
+        height: 25px;
+        padding: 1px 8px;
+}
+
+.explanation-container{
+        float: left;
+        display: inline-block;
+        width: 32%;
+        min-width: 160px;
+        margin: 0 0 8px 1%;
+        color: #555;
+        font-size: 11px;
+        padding-left: 5px;
+        vertical-align: middle;
+        position: relative;
+}
+
+.explanation-example{
+        color: #666;
+        font-family: monospace;
+        font-size: 11px;
+        white-space: pre;
+}
+
+@media (max-width: 1096px){
+        #todo-this-container{
+                display: none;
+        }
+}
