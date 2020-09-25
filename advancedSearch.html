@@ -21,7 +21,7 @@
             </div>
             <div class="grey-line"></div>
             <div id="form-container">
-                <form action="">
+                <form action="https://google.com/search" id="advForm">
                     <div class="subtitle-container">
                         <div class="subtitle-container-2">
                             <span id="find-pages-with">Find pages with...</span>
@@ -33,6 +33,7 @@
                             To do this in the search box.
                         </div>
                     </div>
+
                     <div style="clear:both; width: 100%;">
                         <div class="search-parameter-container">
                             <div class="subtitle-container-2">
@@ -41,7 +42,8 @@
                         </div>
                         <div class="input-container">
                             <div class="input-container-2">
-                                <input class="input" id="words" type="text" name="as_q" autofocus="autofocus">
+                                <input class="input" id="words" type="text" name="as_q" autofocus="autofocus" form="advForm">
+                                <input type="submit" style="visibility: hidden;">
                             </div>
                         </div>
                         <div class="explanation-container">
@@ -54,12 +56,13 @@
                         <div style="clear:both">
                             <div class="search-parameter-container">
                                 <div class="subtitle-container-2">
-                                    <label for="words" class="search-parameter">this exact word or phrase:</label>
+                                    <label for="exact-words" class="search-parameter">this exact word or phrase:</label>
                                 </div>
                             </div>
                             <div class="input-container">
                                 <div class="input-container-2">
-                                    <input class="input" id="words" type="text" name="as_q" autofocus="autofocus">
+                                    <input class="input" id="exact-words" type="text" name="as_epq" autofocus="autofocus" form="advForm">
+                                    <input type="submit" style="visibility: hidden;">
                                 </div>
                             </div>
                             <div class="explanation-container">
@@ -73,12 +76,13 @@
                         <div style="clear: both">
                             <div class="search-parameter-container">
                                 <div class="subtitle-container-2">
-                                    <label for="words" class="search-parameter">any of these words:</label>
+                                    <label for="any-words" class="search-parameter">any of these words:</label>
                                 </div>
                             </div>
                             <div class="input-container">
                                 <div class="input-container-2">
-                                    <input class="input" id="words" type="text" name="as_q" autofocus="autofocus">
+                                    <input class="input" id="any-words" type="text" name="as_oq" autofocus="autofocus" form="advForm">
+                                    <input type="submit" style="visibility: hidden;">
                                 </div>
                             </div>
                             <div class="explanation-container">
@@ -94,12 +98,13 @@
                         <div style="clear:both">
                             <div class="search-parameter-container">
                                 <div class="subtitle-container-2">
-                                    <label for="words" class="search-parameter">none of these words:</label>
+                                    <label for="none-words" class="search-parameter">none of these words:</label>
                                 </div>
                             </div>
                             <div class="input-container">
                                 <div class="input-container-2">
-                                    <input class="input" id="words" type="text" name="as_q" autofocus="autofocus">
+                                    <input class="input" id="none-words" type="text" name="as_eq" autofocus="autofocus" form="advForm">
+                                    <input type="submit" style="visibility: hidden;">
                                 </div>
                             </div>
                             <div class="explanation-container">
@@ -109,6 +114,33 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div style="clear:both">
+                            <div class="search-parameter-container">
+                                <div class="subtitle-container-2">
+                                    <label for="words" class="search-parameter">numbers ranging from:</label>
+                                </div>
+                            </div>
+                            <div style="position: relative; float: left;">
+                                <div class="number-input">
+                                    <input class="input" id="words" type="text" name="as_nlo" autofocus="autofocus">
+                                    <input type="submit" style="visibility: hidden;">
+                                </div>
+                                <div id="to">to</div>
+                                <div class="number-input">
+                                    <input class="input" id="words" type="text" name="as_nhi" autofocus="autofocus">
+                                    <input type="submit" style="visibility: hidden;">
+                                </div>
+                            </div>
+                            <div class="explanation-container">
+                                <div class="subtitle-container-2">
+                                    Put two full stops between the numbers and add a unit of measurement: 
+                                    <span class="explanation-example">10..35 kg, £300..£500, 2010..2011</span>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </form>
 

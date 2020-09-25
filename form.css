@@ -135,7 +135,7 @@ svg {
         float: left;
         display: inline-block;
         min-width: 167px;
-        min-height: 41px;
+        height: 41px;
         vertical-align: middle;
         width: 50%;
 }
@@ -156,8 +156,8 @@ svg {
 }
 
 .explanation-container{
-        float: left;
         display: inline-block;
+        float: left;
         width: 32%;
         min-width: 160px;
         margin: 0 0 8px 1%;
@@ -173,6 +173,22 @@ svg {
         font-family: monospace;
         font-size: 11px;
         white-space: pre;
+}
+
+#to{
+        display: table-cell;
+        width: 40px;
+        padding-right: 6px;
+        padding-left: 6px;
+        text-align: center;
+        font-size: 13px;
+        color: #222;
+}
+
+.number-input{
+        display: table-cell;
+        padding-right: 16px;
+        width: 243px;
 }
 
 @media (max-width: 1096px){
