@@ -219,7 +219,7 @@ svg {
         margin: 0;
         padding: 0;
         text-align: left;
-        text-indent: 4px;
+        text-indent: 8px;
         user-select: none;
 }
 @media (max-width: 1096px){

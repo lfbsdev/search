@@ -17,6 +17,12 @@
                 <div id="glogo-grey-bar-container">
                     <img id="glogo-grey-bar" src="glogo-grey-bar.png">
                 </div>
+                <div id="links-container">
+                    <div id="links-inner-container">
+                        <a href="search.html" class="link">Search</a>
+                        <a href="imageSearch.html" style="padding-left: 15px;" class="link">Images</a>
+                    </div>
+                </div>
             </div>
             <div id="red-title">
                 <label style="margin-left: 10px;">Advanced Search</label>
@@ -173,22 +179,68 @@
                             </div>
                         </div>
 
-                        <div class="search-parameter-container">
-                            <div class="subtitle-container-2">
-                                <label for="none-words" class="search-parameter">language:</label>
+                        <div style="clear:both;">
+                            <div class="search-parameter-container">
+                                <div class="subtitle-container-2">
+                                    <label for="none-words" class="search-parameter">region:</label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="input-container">
-                            <div style="position: relative;">
-                                <input id="language-selector" name="language" value="" type="hidden">
-                                <div class="selector" id="language-selector-button" role="listbox">
-                                    any language
+                            <div class="input-container">
+                                <div style="position: relative;">
+                                    <input id="language-selector" name="language" value="" type="hidden">
+                                    <div class="selector" id="language-selector-button" role="listbox">
+                                        any region
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="explanation-container">
+                                <div class="subtitle-container-2">
+                                    Find pages published in a particular region.
                                 </div>
                             </div>
                         </div>
-                        <div class="explanation-container">
-                            <div class="subtitle-container-2">
-                                Find pages in the language that you select.
+                            
+                        <div style="clear: both;">
+                            <div class="search-parameter-container">
+                                <div class="subtitle-container-2">
+                                    <label for="none-words" class="search-parameter">last update:</label>
+                                </div>
+                            </div>
+                            <div class="input-container">
+                                <div style="position: relative;">
+                                    <input id="language-selector" name="language" value="" type="hidden">
+                                    <div class="selector" id="language-selector-button" role="listbox">
+                                        anytime
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="explanation-container">
+                                <div class="subtitle-container-2">
+                                    Find pages updated within the time that you specify.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="clear: both;">
+                            <div class="search-parameter-container">
+                                <div class="subtitle-container-2">
+                                    <label for="any-words" class="search-parameter">site or domain:</label>
+                                </div>
+                            </div>
+                            <div class="input-container">
+                                <div class="input-container-2">
+                                    <input class="input" id="any-words" type="text" name="as_sitesearch" autofocus="autofocus" form="advForm">
+                                    <input type="submit" style="visibility: hidden;">
+                                </div>
+                            </div>
+                            <div class="explanation-container">
+                                <div class="subtitle-container-2">
+                                    Search one site (like  
+                                    <span class="explanation-example">wikipedia.org</span>    ) or limit your results to a domain like 
+                                    <span class="explanation-example">.edu</span>, 
+                                    <span class="explanation-example">.org</span> or 
+                                    <span class="explanation-example">.gov</span>
+                                </div>
                             </div>
                         </div>
                     </div>
