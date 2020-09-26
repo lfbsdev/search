@@ -24,7 +24,6 @@ div#content{
     margin-right: 0 !important;
     white-space: nowrap;
     background: #f1f1f1;
-    font: 13px/27px Arial,sans-serif;
     position: relative;
     height: 60px;
     width: 100%;
@@ -34,7 +33,6 @@ div#content{
     color: #d93025;
     font-size: 20px;
     margin: 25px 35px;
-    font-family: arial, sans-serif;
     font-weight: 400;
 }
 
